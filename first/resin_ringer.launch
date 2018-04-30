@@ -1,0 +1,3 @@
+<launch> <node name="random_number" pkg="resin_ringer" type="pub.py" output="screen" /> <node name="random_subscriber" pkg="resin_ringer" type="sub.py"
+output="screen" />
+</launch>
